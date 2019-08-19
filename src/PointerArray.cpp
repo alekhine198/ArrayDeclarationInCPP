@@ -6,6 +6,7 @@
  */
 
 #include "PointerArray.h"
+#include <iostream>
 
 
 
@@ -26,12 +27,13 @@ std::string *PointerArray::getNumbers(){
 }
 
 char *PointerArray::getArrayMemory(){
-	char *charMem = new char[100];
+	char *charMem = new char[6];
 
 	return charMem;
 }
 
 void PointerArray::deleteArrayMemory(char *charMem){
+	std::cout << "deleting array memory" << std::endl;
 	delete charMem;
 }
 
