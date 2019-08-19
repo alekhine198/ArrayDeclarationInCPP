@@ -1,0 +1,1 @@
+CPP file from Cave of programming, CPP for beginners, course. Array declaration in class using a const int for array size. There's also a function, getArrayMemory(), that returns a pointer of an array created using the new keyword. Added another method , deleteArrayMemory(), that deletes the pointer to free the memory.

@@ -10,7 +10,8 @@
 #include <string>
 
 class PointerArray {
-	std::string num[3];
+	const static int size = 3;
+	std::string num[size];
 public:
 	PointerArray();
 	virtual ~PointerArray();
