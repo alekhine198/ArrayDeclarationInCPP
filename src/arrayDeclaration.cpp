@@ -23,6 +23,18 @@ int main() {
 
 		char *s2 = arr.getArrayMemory();
 
+		s2[0] = 'a';
+		s2[1] = 'b';
+		s2[2] = 'c';
+		s2[3] = 'd';
+		s2[4] = 'e';
+		s2[5] = '6';
+
+		for(int i=0;i<6;i++ ){
+			std::cout << *s2 << std::endl;
+			s2++;
+		}
+
 		arr.deleteArrayMemory(s2);
 	return 0;
 }
